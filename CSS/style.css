@@ -1,6 +1,6 @@
 /* landing start */
 .landing-page{
-    background-image:linear-gradient(to left, #0ba36134 0%, #3cba921c 100%), url("../IMAGE/cover.jpg");
+    background-image:linear-gradient(to top, #d5fc7928 0%, #96e6a1cc 100%), url("../IMAGE/me.jpg");
     width: 100%;
     height: 100vh;
     background-position: center;
@@ -11,22 +11,23 @@
     padding-top: 20px;
 }
 .navtext-protfolio{
-    color: #607A4D;
-    letter-spacing: 2px;
-    font-weight: 600;
+    font-size: 1.6rem;
+    color: #179168;
+    letter-spacing: 4px;
+    font-weight: 700;
 }
 .navtext-protfolio:hover{
     color: #FFFF;
 }
 .nav-option a{
-    color: #f5f5f5;
+    color: #ffff;
     font-size: 15px;
     font-weight: 500;
     letter-spacing: 1px;
 }
 .nav-link:hover{
-    background-color: #607A4D;
-    color: #f5f5f5;
+    background-color: #179168;
+    color: #ffffff;
     border-radius: 5px;
 }
 .hero-section{
@@ -38,16 +39,19 @@
 }
 .landing-text p{
     font-size: 2rem;
-    color: #f5f5f5;
-    font-weight: 300;
+    color: #ffffff;
+    font-weight: 400;
     letter-spacing: 5px;
 }
 .landing-text h1{
     margin: 0;
     font-size: 5.5rem;
-    color: #f5f5f5;
+    color: #179168;
     font-weight: 700;
     letter-spacing: 20px;
+}
+.landing-text span{
+    color: #179168;
 }
 .cv{
     margin-top: 8%;
@@ -57,26 +61,27 @@
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 500;
-    color: #f5f5f5;
-    border: 1px solid #f5f5f5;
+    color: #ffff;
+    border: 1px solid #ffff;
     padding: 15px 40px;
     letter-spacing: 2px;
     border-radius: 5px;
     transition: 1s;
 }
 .cv a:hover{
-    background-color: #f5f5f5;
-    color: #607A4D;
+    background-color: #ffff;
+    border: none;
+    color: #179168;
 }
 .landing-learn-more{
-    margin-top: 2%;
+    margin-top: 1%;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 .landing-learn-more a{
     text-decoration: none;
-    color: #f5f5f5;
+    color: #ffff;
     font-weight: 500;
     letter-spacing: 1px;
     font-size: 13px;
@@ -87,9 +92,105 @@
 .landing-icon{
     margin-top: 5%;
 }
+.fa-angle-down{
+    color: #ffffff;
+    font-size: 15px;
+}
+/* landing end */
 
+/* section gap start */
+.about-me,.services{
+    margin-top: 8%;
+}
+/* section gap end */
+
+/* about-me start */
+.title-text{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.title-text h1{
+    color: #505050;
+}
+.title-text h3{
+    margin-left: 20px;
+    color: #3dc296;
+}
+.about-bio{
+    display: flex;
+    align-items: center;
+}
+.about-short-text{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgb(58, 58, 58);
+    font-weight: 500;
+}
+.about-short-text span{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color:#179168;
+    letter-spacing: 1px;
+}
+.about-long-text{
+    font-size: 16px;
+    line-height: 35px;
+    color: gray;
+}
+.about-link{
+    margin-top: 5%;
+}
+.about-link a{
+    text-decoration: none;
+    background-color: #179168;
+    color: #ffff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+.about-link a:hover{
+    background: transparent;
+    color: #179168;
+    border: 1px solid #179168;
+    font-weight: 500;
+}
+/* about-me end  */
+
+/* services start */
+.card-icon{
+    display: flex;
+    justify-content: center;
+    margin: 3% 0;
+}
+.card-body{
+    padding: 0;
+}
+.card-icon i{
+    font-size: 3rem;
+    color: #179168;
+}
+.card-title{
+    text-align: center;
+    background-color: #179168;
+    padding: 8px 0;
+    color: #f5f5f5;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.card-text{
+    padding: 0 15px;
+    font-size: 13px;
+    line-height: 22px;
+    color: gray;
+}
+/* services end */
 /* media query */
 @media screen and (max-width:767px) {
+    .navbar{
+        padding-top: 10px;
+    }
     .hero-section{
         height: 60vh;
         display: flex;
@@ -108,11 +209,11 @@
         font-size: 2.5rem;
         color: #f5f5f5;
         font-weight: 700;
-        letter-spacing: 10px;
+        letter-spacing: 8px;
     }
     .cv{
         margin: 0;
-        margin-top: 15%;
+        margin-top: 12%;
     }
     .cv a{
         text-decoration: none;
@@ -127,9 +228,100 @@
         transition: 1s;
     }
     .landing-learn-more{
-        margin-top: 15%;
+        margin-top: 5%;
         display: flex;
         justify-content: center;
         text-align: center;
+    }
+    .landing-icon{
+        margin-top: 3%;
+    }
+    .fa-angle-down{
+        color: #179168;
+    }
+    .about-bio{
+        margin-top: 5%;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+    .navbar{
+        padding-top: 5px;
+    }
+    .hero-section{
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .landing-text p{
+        font-size: 1.5rem;
+        color: #f5f5f5;
+        font-weight: 400;
+        letter-spacing: 3px;
+        margin: 0;
+    }
+    .landing-text h1{
+        margin: 0;
+        font-size: 4rem;
+        color: #f5f5f5;
+        font-weight: 700;
+        letter-spacing: 15px;
+        margin: 0;
+        margin-top: 15px;
+    }
+    .cv{
+        margin: 0;
+        margin-top: 30px;
+    }
+    .cv a{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 500;
+        color: #f5f5f5;
+        border: 1px solid #f5f5f5;
+        padding: 10px 20px;
+        letter-spacing: 1px;
+        border-radius: 5px;
+        transition: 1s;
+    }
+    .landing-learn-more{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 6%;
+    }
+    .landing-icon{
+        margin-top: 3%;
+    }
+    .fa-angle-down{
+        color: #179168;
+    }
+    .about-bio{
+        margin-top: 5%;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .about-long-text{
+        font-size: 14px;
+        line-height: 30px;
+        color: gray;
+    }
+    .about-link{
+        margin-top: 5%;
+    }
+    .about-link{
+        margin-top: 4%;
+    }
+    .about-link a{
+        text-decoration: none;
+        background-color: #3dc296;
+        font-size: 13px;
+        font-weight: 500;
+        color: #f5f5f5;
+        padding: 10px 20px;
+        border-radius: 5px;
+        letter-spacing: 1px;
     }
 }

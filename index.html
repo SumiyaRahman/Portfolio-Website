@@ -1,70 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- boot css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
     <!-- boot icon -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
     <!-- external css -->
-    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/style.css" />
     <title>Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- landing page start -->
-    <div class="landing-page">
-        <!-- nav-bar start -->
-        <nav class="navbar navbar-expand-lg bg-transparent">
-            <div class="container">
-              <a class="navbar-brand navtext-protfolio" href="#">PROTFOLIO</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <div class="navbar-nav nav-option">
-                  <a class="nav-link" aria-current="page" href="#home">Home</a>
-                  <a class="nav-link" href="#about">About</a>
-                  <a class="nav-link" href="#services">Services</a>
-                  <a class="nav-link" href="#work">Work</a>
-                  <a class="nav-link" href="#testimonial">Testimonial</a>
-                  <a class="nav-link" href="#contact">Contact</a>  
-                </div>
-              </div>
+    <section class="landing-page">
+      <!-- nav-bar start -->
+      <nav class="navbar navbar-expand-lg bg-transparent">
+        <div class="container">
+          <a class="navbar-brand navtext-protfolio" href="#">PROTFOLIO</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav nav-option">
+              <a class="nav-link me-3" aria-current="page" href="#home">Home</a>
+              <a class="nav-link me-3" href="#about">About</a>
+              <a class="nav-link me-3" href="#services">Services</a>
+              <a class="nav-link me-3" href="#work">Work</a>
+              <a class="nav-link me-3" href="#testimonial">Testimonial</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </div>
-          </nav>
-        <!-- nav-bar end -->
+          </div>
+        </div>
+      </nav>
+      <!-- nav-bar end -->
 
-        <!-- hero section start -->
-        <div class="hero-section">
-            <div class="div hero-content">
-                <div class="landing-text">
-                    <p>Sumiya Rahman</p>
-                    <h1>DEVELOPER.</h1>
-                </div>
-                <div class="cv">
-                    <a href="./CV/201953082018_RAHMAN SUMIYA BINTE A_CV_CST_NUIST.pdf" download>Download Resume</a>
-                </div>
-            </div>
+      <!-- hero section start -->
+      <div class="hero-section">
+        <div class="div hero-content">
+          <div class="landing-text">
+            <p>Sumiya Rahman</p>
+            <h1>DEVELOPER<span>.</span></h1>
+          </div>
+          <div class="cv">
+            <a
+              href="./CV/201953082018_RAHMAN SUMIYA BINTE A_CV_CST_NUIST.pdf"
+              download
+              >Download Resume</a
+            >
+          </div>
         </div>
-        <!-- hero section end -->
-        <div class="landing-learn-more">
-            <a href="#about">
-                <div>learn more about me</div>
-                <div class="landing-icon">
-                    <i class="fa-solid fa-angle-down"></i>
-                </div>
-            </a>
-        </div>
-    </div>
+      </div>
+      <!-- hero section end -->
+      <div class="landing-learn-more">
+        <a href="#about">
+          <div>learn more about me</div>
+          <div class="landing-icon">
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+        </a>
+      </div>
+    </section>
     <!-- landing page end -->
 
+    <!-- about-me start -->
+    <section class="about-me" id="about">
+      <div class="container">
+        <div class="title-text">
+          <h1>About Me</h1>
+          <h3>
+            <span>/</span>
+            who I am
+          </h3>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 about-img">
+            <img src="./IMAGE/me-2 (1).jpg" alt="img" class="img-fluid" />
+          </div>
+          <div class="col-lg-8 about-bio">
+            <div>
+              <p class="about-short-text">A Quick <span>Bio</span></p>
+              <p class="about-long-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                iusto voluptates fuga architecto commodi cum animi ut quo
+                quaerat, quos, ab nam libero et, nihil exercitationem eius?
+                Consectetur, ex veritatis sequi pariatur qui iusto nulla beatae.
+                Maxime omnis libero, blanditiis ipsa numquam nostrum eum ipsum,
+                dignissimos expedita quae non ea enim necessitatibus. Reiciendis
+                qui aut neque ad voluptates temporibus, quisquam consectetur
+                facere ducimus, consequuntur porro, eum ab provident? Possimus
+                dicta voluptates veniam reiciendis incidunt nesciunt non fuga
+                laudantium soluta laborum! Quod magnam totam veniam obcaecati
+                facilis, reiciendis tempora impedit nulla provident beatae ea
+                expedita necessitatibus et esse delectus? Similique,
+                consectetur.
+              </p>
+              <div class="about-link">
+                <a href="#">Hire me now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about-me end -->
+
+    
 
     <!-- boot script -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- fontawesome kit -->
-    <script src="https://kit.fontawesome.com/2e243b1e3c.js" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/2e243b1e3c.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
