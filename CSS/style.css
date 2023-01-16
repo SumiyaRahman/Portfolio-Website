@@ -102,8 +102,8 @@
 /* section gap start */
 .about-me,
 .services,
-.resume {
-  margin-top: 8%;
+.resume, .skills{
+  margin-top: 7%;
 }
 /* section gap end */
 
@@ -277,6 +277,95 @@
   font-weight: 700;
 }
 /* resume end */
+
+/* skills start */
+.skill-sec{
+    margin-top: 1%;
+    display: flex;
+    padding: 30px 0;
+    border-radius: 10px;
+}
+.skill-des{
+    margin: 10px 0;
+}
+.skill-des:hover{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-image: linear-gradient(to bottom, #eef2f360, #8e9eab5d);
+  padding: 20px 0;
+  border-radius: 10px;
+}
+.skill-icon{
+    display: flex;
+    justify-content: center;
+}
+.fa-html5{
+  color: #E34C26;
+}
+.skill-text{
+    color: #505050;
+    text-align: center;
+}
+.skill-text h3{
+    margin: 25px 0;
+}
+.my-skill{
+    display: flex;
+    justify-content: center;
+}
+.skill-progress{
+    margin: 0;
+    background-color: #179168;
+    width: 80%;
+    border-radius: 15px;
+}
+.skill {
+    background-color: #fff;
+    border: 1px solid #179168;
+    color: #505050;
+    font-weight: 500;
+    padding-right: 5px;
+    text-align: right;
+    font-size: 12px;
+    border-radius: 15px;
+}
+.html {
+    width: 95%;
+}
+.css{
+  width: 90%;
+}
+.boot{
+  width: 80%;
+}
+.js{
+  width: 60%;
+}
+.react{
+  width: 35%;
+}
+.db{
+  width: 40%;
+}
+.skill-2nd-row{
+  margin-top: 4%;
+}
+.skill-short-text{
+    margin: 0;
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #808080;
+}
+/* skills end */
+
+
+
+
+
+
+
+
+
 
 /* media query */
 @media screen and (max-width: 767px) {
